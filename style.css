@@ -23,8 +23,9 @@ body {
 }
 
 /* FLIP EFFECT */
-.card:flipped .card-inner {
-    tranform: rotateY(180deg);
+.card:hover .card-inner,
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
 }
 
 /* BOTH SIDES */
