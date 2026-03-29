@@ -23,7 +23,7 @@ body {
 }
 
 /* FLIP EFFECT */
-.card:hover .card-inner {
+.card:flipped .card-inner {
     tranform: rotateY(180deg);
 }
 
